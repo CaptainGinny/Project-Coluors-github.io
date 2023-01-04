@@ -14,7 +14,7 @@ document.addEventListener('click', (event) => {
     const node =
       event.target.tagName.toLowerCase() === 'i'
         ? event.target
-        : event.target.children[0]
+        : event.target.children[0];
 
     node.classList.toggle('fa-lock-open');
     node.classList.toggle('fa-lock');
